@@ -21,7 +21,7 @@ private:
         std::ofstream my_file;
         my_file.open(path, std::ios::in);
         if (!my_file.is_open()) {
-            std::cout << "No such file";
+            std::cout << "No such file" << std::endl;
         } else {
             for (int i : data) {
                 my_file << std::to_string(i) << " ";
