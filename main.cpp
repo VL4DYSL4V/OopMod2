@@ -4,7 +4,7 @@
 #include "sequence/RandomSequenceFileWriter.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+//    std::cout << "Hello, World!" << std::endl;
     SequenceHolder *sequenceHolder = new RandomSequenceFileWriter();
 //    sequenceHolder->generateRandomSequence();
 //    std::cout<<"Max: "<<sequenceHolder->getMax()<<std::endl;
