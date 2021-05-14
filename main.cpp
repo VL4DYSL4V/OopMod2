@@ -11,5 +11,6 @@ int main() {
 //    std::cout<<"Min: "<<sequenceHolder->getMin()<<std::endl;
 //    std::cout<<"Avg: "<<sequenceHolder->getAverage()<<std::endl;
     sequenceHolder->generateRandomSequence();
+
     return 0;
 }
