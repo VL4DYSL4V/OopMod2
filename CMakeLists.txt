@@ -9,6 +9,7 @@ add_executable(OopMod
         sequence/RandomSequenceFileWriter.cpp
         random/Random.cpp
         random/LinearCongruentRandom.cpp
+        util/Collections.cpp
         main.cpp)
 
 project(tests)
@@ -21,4 +22,5 @@ add_executable(tests
         sequence/RandomSequenceFileWriter.cpp
         random/Random.cpp
         random/LinearCongruentRandom.cpp
+        util/Collections.cpp
         test/tests.cpp)

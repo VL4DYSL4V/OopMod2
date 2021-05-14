@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include "RandomSequenceFileWriter.h"
+#include "../util/Collections.h"
 
 void RandomSequenceFileWriter::generateRandomSequence() {
     std::cout<<"Input length"<<std::endl;
@@ -16,4 +17,9 @@ void RandomSequenceFileWriter::generateRandomSequence() {
     std::string path;
     std::cin >> path;
     writeToFile(path);
+    Collections collections;
+    collections.bubbleSort(this->data);
+    for(int i : data){
+        std::cout << i<< " ";
+    }
 }
