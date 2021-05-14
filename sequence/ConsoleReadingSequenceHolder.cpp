@@ -17,7 +17,4 @@ void ConsoleReadingSequenceHolder::generateRandomSequence() {
         }
         this->data.push_back(lastNumber);
     }
-    std::cout<<"Max: "<<this->getMax()<<std::endl;
-    std::cout<<"Min: "<<this->getMin()<<std::endl;
-    std::cout<<"Avg: "<<this->getAverage()<<std::endl;
 }
